@@ -49,7 +49,7 @@ const SitewideNavbar = (props) => {
                     <DropdownItem>Twitter</DropdownItem>
                     <DropdownItem>Discord</DropdownItem>
                     <DropdownItem divider />
-                    <DropdownItem>Phone / Email</DropdownItem>
+                    <DropdownItem>Email</DropdownItem>
                   </DropdownMenu>
                 </UncontrolledDropdown>
               </Nav>

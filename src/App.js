@@ -1,13 +1,26 @@
 import React from "react";
 import SitewideNavbar from "./components/NavbarComponent";
 import Main from "./components/MainComponent";
+import About from "./components/AboutComponent";
+import Experience from "./components/ExpComponent";
 import "./App.css";
 
 function App() {
   return (
-    <div className="nav">
-      <SitewideNavbar />
-      <Main />
+    <div>
+      <div className="nav">
+        <SitewideNavbar />
+      </div>
+      <div className="lander">
+        <Main />
+      </div>
+      <div className="about">
+        <About />
+      </div>
+
+      <div className="experience">
+        <Experience />
+      </div>
     </div>
   );
 }

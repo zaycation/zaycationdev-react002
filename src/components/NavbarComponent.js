@@ -31,25 +31,27 @@ const SitewideNavbar = (props) => {
             <Collapse isOpen={isOpen} navbar>
               <Nav className="mr-auto" navbar>
                 <NavItem>
-                  <NavLink href="/components/">Experience</NavLink>
+                  <NavLink href="//">About</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink href="https://github.com/zaycation">GitHub</NavLink>
+                  <NavLink href="/">Experience</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink href="https://www.linkedin.com/in/isaiahthomas098/">
-                    LinkedIn
-                  </NavLink>
+                  <NavLink href="/">Portfolio</NavLink>
+                </NavItem>
+                <NavItem>
+                  <NavLink href="/">Contact</NavLink>
                 </NavItem>
                 <UncontrolledDropdown nav inNavbar>
                   <DropdownToggle nav caret>
-                    Contact
+                    Socials
                   </DropdownToggle>
                   <DropdownMenu right>
+                    <DropdownItem>GitHub</DropdownItem>
+                    <DropdownItem>LinkedIn</DropdownItem>
+                    <DropdownItem divider />
                     <DropdownItem>Twitter</DropdownItem>
                     <DropdownItem>Discord</DropdownItem>
-                    <DropdownItem divider />
-                    <DropdownItem>Email</DropdownItem>
                   </DropdownMenu>
                 </UncontrolledDropdown>
               </Nav>

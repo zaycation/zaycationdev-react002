@@ -42,3 +42,10 @@
   align-items: center;
   position: absolute;
 }
+
+.lander,
+.about,
+.experience {
+  height: 100vh;
+  margin: 0;
+}

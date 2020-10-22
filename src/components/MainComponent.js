@@ -126,46 +126,48 @@ const Main = (props) => {
 
   const toggle = () => setTooltipOpen(!tooltipOpen);
   return (
-    <Container>
-      <Row>
-        <Col>
-          <br />
-          <h5>- welcome, I'm</h5>
-          <h1>Isaiah Thomas</h1>
+    <div>
+      <Container>
+        <Row>
+          <Col>
+            <br />
+            <h5>- welcome, I'm</h5>
+            <h1>Isaiah Thomas</h1>
 
-          <h3>I'm a full-stack software engineer from the Bay Area (CA)</h3>
-        </Col>
-      </Row>
-      <Row>
-        <Col>
-          <p>
-            I love working with front-end code and designing user interfaces.
-            I'm a hard worker that is always open to learn something new.
-          </p>
-          <div>
-            <SkillsToggler />
-          </div>
-        </Col>
-      </Row>
-      <Row className="text-center">
-        <Col xs="6">
-          <EmailModal />
-        </Col>
-        <Col xs="6">
-          <Button id="resume-button" outline color="info">
-            Grab my Resume
-          </Button>{" "}
-          <Tooltip
-            placement="bottom"
-            isOpen={tooltipOpen}
-            target="resume-button"
-            toggle={toggle}
-          >
-            Download as a PDF
-          </Tooltip>
-        </Col>
-      </Row>
-    </Container>
+            <h3>I'm a full-stack software engineer from the Bay Area (CA)</h3>
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <p>
+              I love working with front-end code and designing user interfaces.
+              I'm a hard worker that is always open to learn something new.
+            </p>
+            <div>
+              <SkillsToggler />
+            </div>
+          </Col>
+        </Row>
+        <Row className="text-center">
+          <Col xs="6">
+            <EmailModal />
+          </Col>
+          <Col xs="6">
+            <Button id="resume-button" outline color="info">
+              Grab my Resume
+            </Button>{" "}
+            <Tooltip
+              placement="bottom"
+              isOpen={tooltipOpen}
+              target="resume-button"
+              toggle={toggle}
+            >
+              Download as a PDF
+            </Tooltip>
+          </Col>
+        </Row>
+      </Container>
+    </div>
   );
 };
 

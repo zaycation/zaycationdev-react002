@@ -45,7 +45,17 @@
 
 .lander,
 .about,
-.experience {
-  height: 100vh;
+.experience,
+.portf,
+.contactdiv {
+  min-height: 100vh;
   margin: 0;
+}
+
+.card-subheading {
+  font-size: x-small;
+}
+
+.card-text {
+  font-size: smaller;
 }

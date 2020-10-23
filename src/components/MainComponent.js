@@ -18,6 +18,7 @@ import {
   Label,
   Input,
 } from "reactstrap";
+import { FaAngleDoubleDown } from "react-icons/fa";
 
 const SkillsToggler = (props) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -114,7 +115,7 @@ const EmailModal = (props) => {
           </Button>
           <Button color="success" onClick={toggle}>
             Send Email
-          </Button>{" "}
+          </Button>
         </ModalFooter>
       </Modal>
     </div>
@@ -126,15 +127,19 @@ const Main = (props) => {
 
   const toggle = () => setTooltipOpen(!tooltipOpen);
   return (
-    <div>
+    <div className="text-center">
+      <br />
+      <br />
       <Container>
         <Row>
           <Col>
             <br />
-            <h5>- welcome, I'm</h5>
-            <h1>Isaiah Thomas</h1>
+            <h5>Welcome, I'm</h5>
+            <h1>
+              <strong>Isaiah Thomas</strong>
+            </h1>
 
-            <h3>I'm a full-stack software engineer from the Bay Area (CA)</h3>
+            <h4>A full-stack software engineer from the Bay Area, CA</h4>
           </Col>
         </Row>
         <Row>
@@ -148,7 +153,7 @@ const Main = (props) => {
             </div>
           </Col>
         </Row>
-        <Row className="text-center">
+        <Row>
           <Col xs="6">
             <EmailModal />
           </Col>
@@ -164,6 +169,13 @@ const Main = (props) => {
             >
               Download as a PDF
             </Tooltip>
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <Button color="dark">
+              <FaAngleDoubleDown />
+            </Button>
           </Col>
         </Row>
       </Container>

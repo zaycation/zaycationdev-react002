@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { Container, Row, Col, Button, Tooltip } from "reactstrap";
+import React from "react";
+import { Container, Row, Col } from "reactstrap";
 
 const About = (props) => {
   return (
@@ -14,15 +14,16 @@ const About = (props) => {
         <Col>
           <p>
             Thanks for visiting my site! As you may know by now, my name is
-            Isaiah Thomas. I am a frontend engineer currently residing right
-            outside of Oakland, CA.
+            <strong> Isaiah Thomas</strong>. I am a frontend engineer currently
+            residing right outside of Oakland, CA.
           </p>
 
           <p>
             I love to work with design and stylizing interfaces for mobile and
-            desktop devices. My goal is to one day build something that users
+            desktop devices.{" "}
+            <strong>My goal is to one day build something</strong> that users
             feel as if they simply can not live without. Or in other words,
-            something universally useful.
+            something <strong>universally useful</strong>.
           </p>
 
           <p>

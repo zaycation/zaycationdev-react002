@@ -15,40 +15,42 @@ function App() {
         <div className="nav">
           <SitewideNavbar />
         </div>
-        <div className="lander" id="main">
-          <br />
-          <br />
-          <br />
-          <Main />
-        </div>
-        <div className="about" id="about">
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <About />
-        </div>
-        <div className="experience" id="experience">
-          <br />
-          <br />
-          <br />
-          <Experience />
-        </div>
-        <div className="portf" id="portfolio">
-          <br />
-          <br />
-          <br />
-          <Portfolio />
-        </div>
-        <div className="contactdiv" id="contact">
-          <br />
-          <br />
-          <br />
-          <Contact />
-        </div>
+        <body>
+          <div className="lander" id="main">
+            <br />
+            <br />
+            <br />
+            <Main />
+          </div>
+          <div className="about" id="about">
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <About />
+          </div>
+          <div className="experience" id="experience">
+            <br />
+            <br />
+            <br />
+            <Experience />
+          </div>
+          <div className="portf" id="portfolio">
+            <br />
+            <br />
+            <br />
+            <Portfolio />
+          </div>
+          <div className="contactdiv" id="contact">
+            <br />
+            <br />
+            <br />
+            <Contact />
+          </div>
+        </body>
       </div>
     </Router>
   );

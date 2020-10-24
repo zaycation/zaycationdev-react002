@@ -36,9 +36,9 @@ const SkillsToggler = (props) => {
         <Card>
           <CardHeader>Notable Skills</CardHeader>
           <CardBody>
-            Vanilla JS | Node.js | discord.js | react.js | react native | json |
-            c | objective-c | swift/swiftui | html/css/sass | mongodb | aws |
-            photoshop | and more!
+            VanillaJS | Node.js | Discord.js | React / React Native | JSON |
+            C | Objective-C | Swift/SwiftUI | HTML/CSS/SASS | MongoDB | AWS | Heroku
+            Photoshop | and more!
           </CardBody>
         </Card>
       </Collapse>

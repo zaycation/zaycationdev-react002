@@ -94,7 +94,7 @@ const Contact = (props) => {
       <Container>
         <Row>
           <Col>
-            <h3>0.5 ~ Contact</h3>
+            <h3>0.4 ~ Contact</h3>
           </Col>
         </Row>
 

@@ -126,7 +126,7 @@ const Portfolio = (props) => {
       <Container>
         <Row>
           <Col>
-            <h3>0.4 ~ Portfolio</h3>
+            <h3>0.3 ~ Portfolio</h3>
           </Col>
         </Row>
         <br />

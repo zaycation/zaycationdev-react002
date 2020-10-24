@@ -152,7 +152,7 @@ const Main = (props) => {
           <Col>
             <p>
               I love working with front-end code and designing user interfaces.
-              I'm a hard worker that is always open to learn something new.
+              I'm a hard worker that is always open to learning something new.
             </p>
             <div>
               <SkillsToggler />

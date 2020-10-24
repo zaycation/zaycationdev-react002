@@ -12,6 +12,8 @@ import {
   CardGroup,
 } from "reactstrap";
 import GitHubCalendar from "react-github-calendar";
+import { FaAngleDoubleDown } from "react-icons/fa";
+import { HashLink } from "react-router-hash-link";
 
 const PortfolioCards = () => {
   return (
@@ -165,7 +167,25 @@ const Portfolio = (props) => {
             <PortfolioCards />
           </Col>
         </Row>
+        <br />
+        <Row>
+          <Col>
+            <HashLink smooth to="#contact" className="hashlink-active">
+              <Button color="dark" block>
+                <FaAngleDoubleDown />
+              </Button>
+            </HashLink>
+          </Col>
+        </Row>
       </Container>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
       <br />
       <br />
       <br />

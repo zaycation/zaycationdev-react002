@@ -25,7 +25,7 @@ const SitewideNavbar = (props) => {
     <Container>
       <Row>
         <Col>
-          <Navbar color="light" light expand="md">
+          <Navbar color="light" light expand="md" fixed="top">
             <NavbarBrand href="/">
               <strong>zaycation.dev</strong>
             </NavbarBrand>
@@ -33,16 +33,18 @@ const SitewideNavbar = (props) => {
             <Collapse isOpen={isOpen} navbar>
               <Nav className="mr-auto" navbar>
                 <NavItem>
-                  <NavLink href="/">About</NavLink>
+                  <NavLink href="#about" className="hashlink-active">
+                    About
+                  </NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink href="/">Experience</NavLink>
+                  <NavLink href="#experience">Experience</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink href="/">Portfolio</NavLink>
+                  <NavLink href="#portfolio">Portfolio</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink href="/">Contact</NavLink>
+                  <NavLink href="#contact">Contact</NavLink>
                 </NavItem>
                 <UncontrolledDropdown nav inNavbar>
                   <DropdownToggle nav caret>

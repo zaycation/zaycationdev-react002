@@ -14,8 +14,11 @@ import {
   CardText,
   CardImg,
   CardHeader,
+  Button,
 } from "reactstrap";
 import classnames from "classnames";
+import { FaAngleDoubleDown } from "react-icons/fa";
+import { HashLink } from "react-router-hash-link";
 
 const Tab1 = () => {
   return (
@@ -357,8 +360,34 @@ const Experience = (props) => {
             <ExpTabs />
           </Col>
         </Row>
-      </Container>
 
+        <Row>
+          <Col>
+            <HashLink smooth to="#portfolio" className="hashlink-active">
+              <Button color="dark" block>
+                <FaAngleDoubleDown />
+              </Button>
+            </HashLink>
+          </Col>
+        </Row>
+      </Container>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
       <br />
       <br />
       <br />

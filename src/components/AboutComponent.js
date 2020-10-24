@@ -1,5 +1,7 @@
 import React from "react";
-import { Container, Row, Col } from "reactstrap";
+import { Container, Row, Col, Button } from "reactstrap";
+import { FaAngleDoubleDown } from "react-icons/fa";
+import { HashLink } from "react-router-hash-link";
 
 const About = (props) => {
   return (
@@ -33,6 +35,15 @@ const About = (props) => {
             to land a position with ScoutTax (a small startup in Southern
             California) working as a FrontEnd Engineer.
           </p>
+        </Col>
+      </Row>
+      <Row>
+        <Col>
+          <HashLink smooth to="#experience" className="hashlink-active">
+            <Button color="dark" block>
+              <FaAngleDoubleDown />
+            </Button>
+          </HashLink>
         </Col>
       </Row>
     </Container>

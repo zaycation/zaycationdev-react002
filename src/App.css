@@ -59,3 +59,13 @@
 .card-text {
   font-size: smaller;
 }
+
+.hashlink-active,
+.hashlink-active:hover {
+  color: white;
+}
+
+.hashlink-active-email,
+.hashlink-active-email:hover {
+  color: black;
+}

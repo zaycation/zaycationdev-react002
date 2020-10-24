@@ -19,6 +19,7 @@ import {
   Input,
 } from "reactstrap";
 import { FaAngleDoubleDown } from "react-icons/fa";
+import { HashLink } from "react-router-hash-link";
 
 const SkillsToggler = (props) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -54,9 +55,13 @@ const EmailModal = (props) => {
 
   return (
     <div>
-      <Button outline color="secondary" onClick={toggle}>
-        Get in Contact
-      </Button>
+      <HashLink smooth to="#contact" className="hashlink-active-email">
+        <Button outline color="secondary">
+          {/* add the following to above button as param to toggle modal onClick={toggle} */}
+          Get in Contact
+        </Button>
+      </HashLink>
+
       <Modal isOpen={modal} toggle={toggle} className={className}>
         <ModalHeader toggle={toggle}>Email to zaycation.dev</ModalHeader>
         <ModalBody>
@@ -158,9 +163,15 @@ const Main = (props) => {
             <EmailModal />
           </Col>
           <Col xs="6">
-            <Button id="resume-button" outline color="info">
-              Grab my Resume
-            </Button>{" "}
+            <a
+              href="https://docs.google.com/document/d/1tb_bFmMtFTfNJIjAd3Fti2o3CptmdIwY62NxJ-H9wGY/edit?usp=sharing"
+              target="_blank"
+              className="hashlink-active"
+            >
+              <Button id="resume-button" outline color="info">
+                Grab My Resume
+              </Button>{" "}
+            </a>
             <Tooltip
               placement="bottom"
               isOpen={tooltipOpen}
@@ -173,9 +184,11 @@ const Main = (props) => {
         </Row>
         <Row>
           <Col>
-            <Button color="dark">
-              <FaAngleDoubleDown />
-            </Button>
+            <HashLink smooth to="#about" className="hashlink-active">
+              <Button color="dark">
+                <FaAngleDoubleDown />
+              </Button>
+            </HashLink>
           </Col>
         </Row>
       </Container>

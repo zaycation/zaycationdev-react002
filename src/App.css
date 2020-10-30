@@ -30,3 +30,8 @@
 .hashlink-active-email:hover {
   color: black;
 }
+
+.about,
+.portf {
+  background-color: #ced4da;
+}

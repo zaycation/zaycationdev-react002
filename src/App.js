@@ -20,6 +20,8 @@ function App() {
             <br />
             <br />
             <br />
+            <br />
+            <br />
             <Main />
           </div>
           <div className="about" id="about">
@@ -57,4 +59,3 @@ function App() {
 }
 
 export default App;
-

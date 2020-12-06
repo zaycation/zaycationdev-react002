@@ -5,7 +5,3 @@ Welcome my personal portfolio website. Here you can learn more about me, view my
 For a live demo please visit:
 
 https://www.zaycation.dev
-
-or
-
-https://zaycationdev-react002.herokuapp.com/
